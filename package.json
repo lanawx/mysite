@@ -1,36 +1,15 @@
 {
-  "name": "hugo-blox-academic-cv-starter",
+  "name": "mysite",
   "version": "1.0.0",
-  "private": true,
-  "packageManager": "pnpm@10.14.0",
   "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
-  "scripts": {
-    "dev": "hugo server --disableFastRender",
-    "build": "hugo --minify && pnpm run pagefind",
-    "pagefind": "pagefind --site public"
-  },
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.12",
-    "@tailwindcss/typography": "^0.5.10",
-    "pagefind": "^1.4.0",
-    "preact": "^10.27.2",
-<<<<<<< HEAD
-    "tailwindcss": "^4.2.1"
-  },
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HugoBlox/theme-academic-cv.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HugoBlox/theme-academic-cv/issues"
-  },
-  "homepage": "https://github.com/HugoBlox/theme-academic-cv#readme"
-=======
-    "tailwindcss": "^4.1.12"
+  "devDependencies": {
+    "tailwindcss": "^4.2.1"
   }
->>>>>>> 0ab5f33d8cceaa17fcdb16569afe42ab2cfeb523
 }
