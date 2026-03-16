@@ -289,3 +289,19 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
+# Параментры автора
+author:
+  name: "Милана Мартынова"
+  avatar: "avatar.jpg"
+  bio: "Я студентка 1 курса"
+  interests:
+    - "Книги"
+    - "Сериалы"
+    - "Прогулки по городу"
+    - "Ведение блога"
+  education: "Среднее общее образование"
+  cources:
+    - cource: "Компьютерные и информационные науки"
+    - institute: "Российский университет дружбы народов"
+    - year: 2025-2029
+   
