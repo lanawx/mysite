@@ -2,7 +2,8 @@ name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -46,7 +47,7 @@ jobs:
       - name: Build with Hugo
         env:
           # Для репозитория mysite: GitHub Pages = https://Lanawx.github.io/mysite/
-          HUGO_BASEURL: https://Lanawx.github.io/mysite/
+          HUGO_BASEURL: https://lanawx.github.io/mysite/
         run: hugo --minify
 
       - name: Upload artifact
@@ -59,7 +60,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: $ {{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
