@@ -1,8 +1,8 @@
-module github.com/Lanawx/mysite
+module github.com/lanawx/mysite
 
 go 1.19
 
-require github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7
+require github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.8
 
 require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.4.1 // indirect
