@@ -40,7 +40,6 @@ params:
       icon_pack: fab
       link: https://github.com/lanawx
 # Информация о сайте
-baseURL: "https://lanawx.github.io/mysite/"
 title: "Мой персональный сайт"
 theme: "hugo-blox-builder"
 defaultContentLanguage: "ru"
