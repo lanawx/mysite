@@ -1,0 +1,3 @@
+{{/* Замена таблиц, не требующая getCSV */}}
+{{ $htmlTable := .Inner | markdownify }}
+{{ $htmlTable | safeHTML }}

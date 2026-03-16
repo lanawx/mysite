@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Конфигурация для Hugo Blox (Academic)
 baseURL: "https://lanawx.github.io/mysite/"
 title: "Милана Мартынова"
@@ -39,3 +40,23 @@ params:
     - icon: github
       icon_pack: fab
       link: https://github.com/lanawx
+=======
+# Информация о сайте
+baseURL: "https://lanawx.github.io/mysite/"
+title: "Мой персональный сайт"
+theme: "hugo-blox-builder"
+defaultContentLanguage: "ru"
+languageCode: "ru-ru"
+
+# Выходные форматы
+outputs:
+  home: ["HTML"]
+  page: ["HTML"]
+  section: ["HTML"]
+  taxonomy: ["HTML"]
+  term: ["HTML"]
+
+# Модули
+module:
+  imports: []
+>>>>>>> 0ab5f33d8cceaa17fcdb16569afe42ab2cfeb523

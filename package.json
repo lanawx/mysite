@@ -14,6 +14,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "pagefind": "^1.4.0",
     "preact": "^10.27.2",
+<<<<<<< HEAD
     "tailwindcss": "^4.2.1"
   },
   "main": "index.js",
@@ -28,4 +29,8 @@
     "url": "https://github.com/HugoBlox/theme-academic-cv/issues"
   },
   "homepage": "https://github.com/HugoBlox/theme-academic-cv#readme"
+=======
+    "tailwindcss": "^4.1.12"
+  }
+>>>>>>> 0ab5f33d8cceaa17fcdb16569afe42ab2cfeb523
 }
