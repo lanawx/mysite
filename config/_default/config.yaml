@@ -1,0 +1,41 @@
+# Конфигурация для Hugo Blox (Academic)
+baseURL: "https://lanawx.github.io/mysite/"
+title: "Милана Мартынова"
+theme: "hugo-blox-builder"
+
+# Языковые настройки
+defaultContentLanguage: ru
+languageCode: ru-ru
+
+# Настройки сборки
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Выходные форматы
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  page: ["HTML"]
+  section: ["HTML", "RSS"]
+  taxonomy: ["HTML", "RSS"]
+  term: ["HTML", "RSS"]
+
+# Модули (важно для Academic!)
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
+
+# Параметры сайта
+params:
+  # Основное
+  name: "Милана Мартынова"
+  role: "Студентка"
+  bio: "I want it, I got it"
+  
+  # Социальные сети
+  social:
+    - icon: github
+      icon_pack: fab
+      link: https://github.com/lanawx
