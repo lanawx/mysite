@@ -1,12 +1,28 @@
-# Leave the homepage title empty to use the site title
+---
 title: ""
-date: 2026-03-16
+date: 2026-03-17
 type: landing
 
 sections:
-  - block: about
+  - block: markdown
     content:
-      username: admin
-    design:
-      background:
-        color: ""
+      title: "Привет!"
+      text: |
+        {{< figure src="/media/avatar.jpg" width="200px" class="rounded-circle" >}}
+        
+        # Милана Мартынова
+        
+        **Студентка РУДН**
+        
+        Компьютерные и информационные науки, 2026
+        
+        ### Интересы
+        - лакорны
+        - фанфики
+        - юри
+        - яой
+        
+        ### Контакты
+        - [![GitHub](https://img.shields.io/badge/GitHub-lanawx-blue?logo=github)](https://github.com/lanawx)
+        - milanamartynova531@gmail.com
+---

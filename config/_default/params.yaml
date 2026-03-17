@@ -1,27 +1,14 @@
-# МИНИМАЛЬНАЯ КОНФИГУРАЦИЯ ДЛЯ ЛАБОРАТОРНОЙ РАБОТЫ
-
-# Основная информация о сайте
-main:
-  name: "Мой сайт"
-  description: "Персональный сайт студента"
-
 # Внешний вид
-theme: minimal
-font: native
+theme: academic
+font: default
 day_night: true
-
-# Данные для главной страницы
-author:
-  name: "Милана Мартынова"
-  role: "Студентка"
-  bio: "Cтудентка 1 курса"
 
 # Интересы
 interests:
   - лакорны
   - фанфики
   - юри
-  - яой
+  - жой
 
 # Образование
 education:
@@ -36,15 +23,5 @@ social:
     icon_pack: fab
     url: https://github.com/lanawx
 
-# Секции на главной странице
-sections:
-  - about     # Секция "О себе" - здесь будет фото, bio, интересы, образование
-  - posts     # Секция с постами
-
-# Подвал сайта
-footer:
-  copyright:
-    notice: "© 2026"
-
 # Email
-email: "milanamartynova531@gmail.com"
+email: milanamartynova531@gmail.com
