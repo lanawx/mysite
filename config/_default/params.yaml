@@ -16,6 +16,20 @@ author:
   role: "Студентка"
   bio: "Cтудентка 1 курса"
 
+# Интересы
+interests:
+  - лакорны
+  - фанфики
+  - юри
+  - яой
+
+# Образование
+education:
+  courses:
+    - course: Компьютерные и информационные науки
+      institution: РУДН
+      year: 2026
+
 # Социальные сети
 social:
   - icon: github

@@ -39,20 +39,3 @@ params:
     - icon: github
       icon_pack: fab
       link: https://github.com/lanawx
-# Информация о сайте
-title: "Мой персональный сайт"
-theme: "hugo-blox-builder"
-defaultContentLanguage: "ru"
-languageCode: "ru-ru"
-
-# Выходные форматы
-outputs:
-  home: ["HTML"]
-  page: ["HTML"]
-  section: ["HTML"]
-  taxonomy: ["HTML"]
-  term: ["HTML"]
-
-# Модули
-module:
-  imports: []
