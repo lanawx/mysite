@@ -5,15 +5,4 @@
     "tailwindcss": "^4.0.0",
     "@tailwindcss/cli": "^4.0.0"
   }
-  "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^4.2.1"
-  }
 }
