@@ -5,3 +5,9 @@ main:
   - name: "Посты"
     url: "/post/"
     weight: 2
+  - name: "Проекты"
+    url: "/project/"
+    weight: 3
+  - name: "Контакты"
+    url: "#contact"
+    weight: 4
