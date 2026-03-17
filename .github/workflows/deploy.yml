@@ -22,13 +22,29 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install TailwindCSS
+        run: |
+          npm install --save-dev tailwindcss @tailwindcss/cli
+          # Убедимся, что tailwind доступен в PATH
+          echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
+      
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
+      
       - name: Build
         run: hugo --minify
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
