@@ -26,6 +26,10 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
+      - name: Clean cache
+        run: |
+          rm -rf /tmp/hugo_cache_runner
+          hugo mod clean
       - name: Build
         run: hugo --minify
       - name: Upload artifact
@@ -43,3 +47,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+ignoreErrors:
+  - error-remote-get
+  - error-resource-not-found
