@@ -8,12 +8,6 @@ on:
   workflow_dispatch:
 
 # Provide permission to clone the repo and deploy it to GitHub Pages
-name: Deploy Hugo site to GitHub Pages
-
-on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
 
 permissions:
   contents: read
